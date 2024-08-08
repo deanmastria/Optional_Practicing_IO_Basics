@@ -1,0 +1,65 @@
+# 1
+What is I/O in the context of Java? Provide some common use cases for I/O in Java.
+
+I/O in the context of JAVA stands for Input/Output. It is the "process of transferring data between a program and external sources or destinations".
+
+ Some common uses for I/O include:
+
+                - Reading(input) ray byte data from files, databases or APIs and converting them into primitive data types
+                - Writing primitive data types to files, databases or APIs and converting them into bytes
+                - Temporarily storing data separately using buffers to enhance programming efficiency
+                - Sending or receiving data over a network using classes like `socket` and `ServerSocket`
+                -                                   &
+                - Interacting with hardware devices through serial and parallel port communication
+
+
+# 2
+What are InputStream and OutputStream in Java, and what are their primary purposes?
+
+Input/Output Streams are classes designed to handle reading and writing data. There are quite a number of I/O streams for handling different types of
+data and sources. The primary purpose is, as mentioned, to handle reading and writing data, however there are specific stream types that
+serve a more specialized primary purpose.
+
+A few of these include:
+                - Byte Streams to handle raw binary data
+                - Character Streams to handle character data
+                - Standard Streams such as System.out System.in System.err
+                - Network Streams for reading/writing bytes over a network from/to a socket
+
+
+
+
+# 3
+What are the benefits of using buffered I/O streams in Java?
+
+The main benefit is to make input/output operations faster. By setting up a buffer in memory, large amounts of data can be read or written as opposed to
+reading/writing byte by byte. Using buffers, as alluded to in answer 1, enhances program efficiency and optimizes performance, especially in
+large scale operations.
+
+Using buffers reduces the number of I/O operations. Since I/O operations are normally slower compared to memory operations, the
+result is quicker processing and higher responsiveness of the program.
+
+
+# 4
+
+What is the purpose of InputStreamReader and OutputStreamWriter in Java, and when should they be used?
+
+
+
+
+Describe the difference between FileInputStream and FileReader, and between FileOutputStream and FileWriter.
+
+
+
+
+What are BufferedReader and BufferedWriter used for in Java?
+
+
+
+
+What are DataInputStream and DataOutputStream, and what unique functionality do they provide?
+
+
+
+
+Explain the concept of object serialization in Java. Why is it important, and in what scenarios might it be used?
