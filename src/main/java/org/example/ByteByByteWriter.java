@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ByteByByteWriter {
     public static void main(String[] args) {
-        String fileName = "src/main/resources/task2.txt";                       // Specifies the name of the file to write
+        String fileName = "src/main/resources/output/task2.txt";                       // Specifies the name of the file to write
         String data = "String for task 2";                                      // The string data to be written
 
         try (FileOutputStream fos = new FileOutputStream(fileName)) {           // Try-wit-resources to ensure FileOutputStream is closed automaitcally

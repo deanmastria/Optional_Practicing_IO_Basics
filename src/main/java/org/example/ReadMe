@@ -1,0 +1,61 @@
+# Task 1: Reading a File Byte by Byte
+
+
+## Implemented a method to read bytes from task1.txt using FileInputStream.
+## Added error handling to check if the file exists and if it contains valid content.
+
+
+#  2: Writing Data to a File
+
+## Created a method to write a string to output.txt using FileOutputStream.
+## Error handling included to ensure the file is created if it doesn't exist.
+
+
+# Task 3: Buffered Streams for Performance Improvement
+
+#### It is barely noticable that using BufferedInput/OutputStream makes a difference, adding more data to the file I was able to see a small difference,
+####I am sure that with more data the contrast would be large
+
+
+## Modified the original reading and writing methods to use BufferedInputStream and BufferedOutputStream.
+## Buffered streams were implemented to enhance performance by reducing I/O operations.
+
+
+
+
+
+# Task 4: Convert File Content to Uppercase
+
+## Implemented a method to read characters from example.txt using InputStreamReader, convert them to uppercase, and write the result to uppercase_output.txt using OutputStreamWriter.
+## Error handling ensures proper reading and writing of character data.
+
+
+# Task 5: Reverse File Content Line by Line
+
+## A new ArrayList was created to store lines read from example.txt.
+## Used Collections.reverse() to reverse the order of lines and wrote the reversed content to reversed_output.txt.
+## Added error handling for reading from and writing to files.
+
+
+#  6: Handling Primitive Data Types
+
+## File Structure
+## Main file: src/PrimitiveDataIO.java
+## Resources: Binary data stored in data.bin in the files/output folder.
+
+## Created methods to write and read primitive data types (int, float, boolean, char) using DataOutputStream and DataInputStream.
+## Error handling ensures that the correct data types are read and written.
+
+
+# Task 7: Object Serialization and Deserialization
+
+## File Structure
+## Main file: src/ObjectSerializationDemo.java
+## Resources: Serialized object stored in person.ser in the files/output folder.
+
+## Implemented serialization of a Person object to person.ser using ObjectOutputStream.
+## Deserialized the Person object back into the program using ObjectInputStream.
+## Error handling covers IOException and ClassNotFoundException.
+
+## Consistent error handling across all tasks ensures the program gracefully handles issues such as missing files, incorrect file formats, and serialization errors.
+## Additional tests were conducted to verify error handling robustness, including adding incorrect data types and empty files.

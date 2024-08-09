@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class ByteByByteReader {
     public static void main(String[] args) {
-        String fileName = "src/main/resources/task1.txt";                   // Name of file to be read
+        String fileName = "src/main/resources/input/task1.txt";                   // Name of file to be read
 
         try (FileInputStream fis = new FileInputStream(fileName)) {         // Try-with-resources to ensure that FileInputStream is closed automatically
             int byteData;

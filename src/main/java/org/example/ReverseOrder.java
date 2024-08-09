@@ -7,8 +7,8 @@ import java.util.Collections;
 
 public class ReverseOrder {
     public static void main(String[] args) {
-    String inputFileName = "src/main/resources/task1.txt";
-    String outputFileName = "src/main/resources/reverseOrder.txt";
+    String inputFileName = "src/main/resources/input/task1.txt";
+    String outputFileName = "src/main/resources/output/reverseOrder.txt";
 
     try (BufferedReader reader = new BufferedReader(new FileReader(inputFileName));
          BufferedWriter writer = new BufferedWriter(new FileWriter(outputFileName))) {
@@ -28,7 +28,7 @@ public class ReverseOrder {
             writer.newLine();
         }
 
-        System.out.println("File content reversed and written to file");
+        System.out.printf("File content reversed and written to file '%s'\n", outputFileName);
 
     } catch (IOException e) {
         e.printStackTrace();

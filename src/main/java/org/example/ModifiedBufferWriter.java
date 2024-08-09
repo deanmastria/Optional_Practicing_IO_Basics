@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ModifiedBufferWriter {
     public static void main(String[] args) {
-        String fileName = "src/main/resources/modifiedtask1.txt";                       // Specifies the name of the file to write
+        String fileName = "src/main/resources/output/modifiedtask3.txt";                       // Specifies the name of the file to write
         String data = "String for task 3";                                      // The string data to be written
 
         try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(fileName))) {           // Try-wit-resources to ensure FileOutputStream is closed automaitcally

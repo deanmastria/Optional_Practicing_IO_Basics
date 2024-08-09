@@ -8,14 +8,14 @@ import java.io.FileOutputStream;
 
 public class PrimitiveData {
     public static void main(String[] args) {
-        String fileName = "src/main/resources/primitiveData.bin";                               //bin to store binary data
+        String fileName = "src/main/resources/input/primitiveData.bin";                               //bin to store binary data
 
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileName))) {     // Write data to file using dataoutputstream
             dos.writeInt(456);          //int value
             dos.writeFloat(60.60f);                     //float value
             dos.writeBoolean(true);               // Boolean value
             dos.writeChar('Z');                  // Char value
-            System.out.println("Primitive Data Written");
+            System.out.printf("Primitive Data Written '%s'\n", fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }
