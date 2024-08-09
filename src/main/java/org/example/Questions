@@ -1,4 +1,5 @@
 # 1
+
 What is I/O in the context of Java? Provide some common use cases for I/O in Java.
 
 I/O in the context of JAVA stands for Input/Output. It is the "process of transferring data between a program and external sources or destinations".
@@ -14,6 +15,7 @@ I/O in the context of JAVA stands for Input/Output. It is the "process of transf
 
 
 # 2
+
 What are InputStream and OutputStream in Java, and what are their primary purposes?
 
 Input/Output Streams are classes designed to handle reading and writing data. There are quite a number of I/O streams for handling different types of
@@ -30,6 +32,7 @@ A few of these include:
 
 
 # 3
+
 What are the benefits of using buffered I/O streams in Java?
 
 The main benefit is to make input/output operations faster. By setting up a buffer in memory, large amounts of data can be read or written as opposed to
@@ -46,20 +49,24 @@ What is the purpose of InputStreamReader and OutputStreamWriter in Java, and whe
 
 
 
+# 5
 
 Describe the difference between FileInputStream and FileReader, and between FileOutputStream and FileWriter.
 
 
 
+# 6
 
 What are BufferedReader and BufferedWriter used for in Java?
 
 
 
+# 7
 
 What are DataInputStream and DataOutputStream, and what unique functionality do they provide?
 
 
 
+# 8
 
 Explain the concept of object serialization in Java. Why is it important, and in what scenarios might it be used?
